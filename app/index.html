@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FridayList — Real Black Friday 2026 Deals, Checked Today</title>
+<meta name="description" content="55 real Black Friday 2026 deals, each checked 27 Nov 2026 against its source, with an honest verdict on whether it is really a deal. Search, filter and compare by store.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="kicker">BLACK FRIDAY · 27 NOV 2026 · CYBER MONDAY 30 NOV</p>
+    <h1>FridayList</h1>
+    <p class="tagline">Real Black Friday deals, checked today — with an honest verdict on each one.</p>
+    <p class="stats"><strong>55 deals</strong> · 8 categories · 3 stores · Every price checked <strong>27 Nov 2026</strong> against the source named on its card. Prices move fast — confirm at the store before you buy.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls" aria-label="Find a deal">
+    <label class="field grow">
+      <span>Search</span>
+      <input id="searchBox" type="search" placeholder="Try “AirPods”, “OLED”, “Dyson”… " autocomplete="off">
+    </label>
+    <label class="field">
+      <span>Category</span>
+      <select id="categoryPick">
+        <option value="all">All categories</option>
+      </select>
+    </label>
+    <label class="field">
+      <span>Store</span>
+      <select id="storePick">
+        <option value="all">All stores</option>
+      </select>
+    </label>
+    <label class="field">
+      <span>Discount</span>
+      <select id="discountPick">
+        <option value="0">Any discount</option>
+        <option value="20">20% off or more</option>
+        <option value="30">30% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+      </select>
+    </label>
+    <label class="field">
+      <span>Sort by</span>
+      <select id="sortPick">
+        <option value="score">Best deal first</option>
+        <option value="pct">Biggest discount %</option>
+        <option value="saving">Biggest cash saving</option>
+        <option value="low">Lowest price</option>
+        <option value="high">Highest price</option>
+      </select>
+    </label>
+  </section>
+
+  <p id="countLine" class="count" aria-live="polite">Showing 55 of 55 deals</p>
+
+  <section class="legend" aria-label="How to read a deal">
+    <span><i class="dot sig-new"></i><strong>NEW LOW</strong> — lowest price ever tracked for that listing</span>
+    <span><i class="dot sig-strong"></i><strong>STRONG PRICE</strong> — a deep cut on a current model</span>
+    <span><i class="dot sig-routine"></i><strong>ROUTINE SALE</strong> — a real cut, but small or ordinary</span>
+  </section>
+
+  <div id="dealGrid" class="grid"></div>
+
+  <section class="method">
+    <h2>How these deals were checked</h2>
+    <p>Each deal was found in a published Black Friday roundup or a retailer's own sale release dated 17–24 Nov 2026 — Tom's Guide and TechRadar live trackers, 9to5Toys, Best Buy's Black Friday release, Nintendo's announcement, and Product Bible's Amazon price checks — and re-checked against that source on 27 Nov 2026. The card names the source and the date it reported the price. The discount shown is always computed from the two prices on the card, so it adds up. A “was” price is only as honest as the seller, so the verdict line says when a cut is small, when a list price moved recently, or when another store has the same product cheaper — the same product at two stores is shown together so you can compare.</p>
+    <p>What is <em>not</em> here: no prices guessed from memory, no “up to” sale banners, no carrier bill-credit phone offers (those are monthly credits, not a price cut), and no Apple gift-card offers (you still pay full price). If a price could not be tied to a named source, it was left out.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>FridayList — an independent deal finder. Not affiliated with Amazon, Best Buy, Lenovo, or any brand shown. Prices were checked 27 Nov 2026 and can change or sell out; the store's live price is the one that counts.</p>
+</footer>
+</body>
+</html>
