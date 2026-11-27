@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/black-friday-deal-finder-01/Khanhduy203/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
 [![reward](https://make.fun/badge/black-friday-deal-finder-01/Khanhduy203/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
 
-FridayList — 55 real Black Friday 2026 deals, each checked 27 Nov 2026 against a named source, with an honest verdict (NEW LOW / STRONG PRICE / ROUTINE SALE) and the same product compared across stores. Search, filter by category, store and discount, and sort by deal score, discount or cash saved. Static files, no network requests at runtime.
+FridayList — 57 real Black Friday 2026 deals, each checked 27 Nov 2026 against a named source, with an honest verdict (NEW LOW / STRONG PRICE / ROUTINE SALE) and the same product compared across stores. Search, filter by category, store and discount, and sort by deal score, discount or cash saved. Static files, no network requests at runtime.
 
 ## Run it
 
